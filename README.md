@@ -1,5 +1,5 @@
 # nespad
-Connect an NES-controller to your PC through an Arduino.
+Connect an NES-controller to your PC through an Arduino that acts like a keyboard.
 
 ## Requirements
 The project is made on an Arduino Uno which normally doesn't have [HID](https://en.wikipedia.org/wiki/Human_interface_devices) support. A workaround for this is to use [HoodLoader2](https://github.com/NicoHood/HoodLoader2) which enables us to directly program the MCU controlling the serial port.
